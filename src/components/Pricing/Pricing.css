@@ -1,0 +1,49 @@
+section.pricing {
+    min-height: 100vh;
+    background-color: #8a8a8a;
+}
+
+.pricing-tag {
+    color: #343a40;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(0,0,0, 0);
+}
+
+.card {
+    box-shadow: 7px -3px 10px rgb(43, 43, 43);
+}
+
+.card:hover {
+    box-shadow: 10px -5px 10px 2px rgb(43, 43, 43);
+}
+
+.price-normal{
+    color: #ad372f;
+    font-size: 40px;
+}
+
+.price-normal span {
+    font-size: 25px;
+}
+
+.config-list {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.configs {
+    color: #343a40;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btn-checkout {
+    margin-top: 100px;
+    padding: 7px 30px;
+    background-color: #ad372f;
+    text-transform: capitalize;
+    color: white;
+    font-size: 24px;
+    border-radius: 20px;
+}
